@@ -1,0 +1,10 @@
+Phần 1 : so sánh 
+1.Bảng so sánh hai vai trò toán tử 
+Toán tử > có chức năng là đưa hêt các nội dung của một tệp nào đó vào trong một file mới . nếu file mới chưa có thì nó sẽ tạo ra một file mới và add nội dung , nếu file đó đã có thì nó sẽ xóa toàn bộ nội dung file cũ và ghi đè lên nội dung mới 
+Toán tử >> có chức năng là ghi nối tiếp khi chuyển sang nội dung một file mới thì nó sẽ in ra vào phần khoảng trống tiếp theo
+2. ngữ cảnh ca sáng và 24/7 
+Nếu lưu báo cáo lỗi hàng ngày thì dùng dấu > nó sẽ in ra bản báo cáo mới hoàn toàn theo ngày ( thông tin mới nhất và k cần lưu trữ lịch sử ) 
+Nếu lưu báo cáo theo dõi báo cáo 24/7 thì nội dung sẽ dc update liên tục ( mọi sự cố đều cần tích lũy theo thời gian ) 
+Phần 2 : lựa chọn 
+Giải pháp tối ưu cho việc ghi nhật kí lỗi phát sinh liên tục trong ngày  là sử dụng câu lệnh ghi đè ( >)  . đề xuất thêm cách dùng add content (  tự động ghi nối tiếp vào cuối tệp mà k lo xóa nhầm lịch sử  . Out-File -Append -Encoding utf8 (câu lệnh chuẩn hóa khắc phục triệt để lỗi mã hóa ký tự . 
+
